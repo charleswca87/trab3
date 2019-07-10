@@ -54,8 +54,8 @@ class ProdutoRequest extends FormRequest
     {
         return [
             'nome' => 'Nome',
-            'peso' =. 'Peso'
-            'id' => 'id',
+            'peso' => 'Peso',
+            'id' => 'ID',
         ];
     }
 

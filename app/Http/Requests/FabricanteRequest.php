@@ -26,8 +26,8 @@ class FabricanteRequest extends FormRequest
         return [
             'nome' => 'required|min:3|max:255',
             'cidade' => 'required|min:3|max:255',
-            'produto' => 'required'
-            'id' => 'id'
+            'produto' => 'required',
+            'id' => 'id',
         ];
     }
 
@@ -48,7 +48,7 @@ class FabricanteRequest extends FormRequest
     {
         return [
             'nome' => 'Nome',
-            'cidade' =. 'Cidade',
+            'cidade' => 'Cidade',
             'produto' => 'Produto',
             'id' => 'id',
         ];
