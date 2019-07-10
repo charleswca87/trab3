@@ -19,7 +19,7 @@
     </div>
 
     <div class="form-group">
-        <label for="peso">Peso/label>
+        <label for="peso">Peso</label>
        <input value="{{old('peso')}}" id="peso" class="form-control" name="peso" type="text">
 
         @error('peso')

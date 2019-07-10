@@ -7,7 +7,7 @@
 --}}
 <h2>Produtos</h2>
 
-<a href="{{url('/posts/form-adicionar')}}" class="btn btn-primary float-right mb-2">
+<a href="{{url('/produtos/form-adicionar')}}" class="btn btn-primary float-right mb-2">
     Adicionar</a>
 
 <table class="table table-dark">
