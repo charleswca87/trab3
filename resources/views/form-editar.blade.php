@@ -23,7 +23,7 @@
 
       <div class="form-group">
         <label for="peso">Peso</label>
-        <input id="peso" class="form-control" name="peso" type="text" value="{{$produto->peso}}"">
+        <input id="peso" class="form-control" name="peso" type="text" value="{{$produto->peso}}">
 
         @error('texto')
             <div class="alert alert-danger">{{ $message }}</div>

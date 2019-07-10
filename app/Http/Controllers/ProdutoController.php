@@ -24,9 +24,9 @@ class ProdutoController extends Controller
     public function produtos()
     {
 
-        $dados = Produtos::all();
+        $dados = Produto::all();
 
-        return view('produtos')->with('produtos', $dados);
+        return view('produts')->with('produtos', $dados);
     }
 
         public function formAdicionar()
