@@ -24,7 +24,7 @@ class ProdutoController extends Controller
     public function produtos()
     {
 
-        $dados = Produto::all();
+        $dados = Produtos::all();
 
         return view('produtos')->with('produtos', $dados);
     }
