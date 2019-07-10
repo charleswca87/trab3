@@ -5,7 +5,7 @@
 {{-- Vai pegar o conteudo que estiver dentro da
     section e jogar dentro do yield
 --}}
-<h2>Posts</h2>
+<h2>Produtos</h2>
 
 <a href="{{url('/posts/form-adicionar')}}" class="btn btn-primary float-right mb-2">
     Adicionar</a>

@@ -14,15 +14,15 @@
 
 
 //Chamando o controllador
-Route::get('/', 'ProdutoController@venda');
+Route::get('/', 'ProdutoController@produtos');
 
 //Rotas para parte de Produtos
-Route::get('/venda', 'ProdutoController@venda');
-Route::get('/venda/form-adicionar', 'ProdutoController@formAdicionar');
-Route::post('/venda/adicionar', 'ProdutoController@adicionar');
-Route::get('/venda/excluir/{id}', 'ProdutoController@excluir');
-Route::get('/venda/editar/{id}', 'ProdutoController@form_editar');
-Route::post('/venda/editar', 'ProdutoController@editar');
+Route::get('/produtos', 'ProdutoController@produtos');
+Route::get('/produtos/form-adicionar', 'ProdutoController@formAdicionar');
+Route::post('/produtos/adicionar', 'ProdutoController@adicionar');
+Route::get('/produtos/excluir/{id}', 'ProdutoController@excluir');
+Route::get('/produtos/editar/{id}', 'ProdutoController@form_editar');
+Route::post('/produtos/editar', 'ProdutoController@editar');
 
 //Rotas para parte de Fabricante
 Route::get('/fabricantes', 'FabricanteController@fabricantes');
